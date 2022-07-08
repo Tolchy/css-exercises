@@ -1,0 +1,19 @@
+.odd {
+    background-color: rgb(247, 133, 152);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#numba2 {
+    color: #0000FF;
+    font-size: 36px;
+}
+
+.odd.big {
+    font-size: 24px;
+}
+
+#numba4 {
+    background-color: #00FF00;
+    font-size: 24px;
+    font-weight: 700;
+}
