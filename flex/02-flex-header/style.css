@@ -1,6 +1,37 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  padding: 8px 8px;
+  justify-content: space-between;
+}
+
+.left-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 64px;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.right-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 64px;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 
 .logo {
