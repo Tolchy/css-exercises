@@ -7,6 +7,25 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.mountain {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+}
+
 img {
   width: 600px;
 }
