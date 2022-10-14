@@ -10,20 +10,32 @@ body {
 .mountain {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 0px 18px;
 }
 
 .links {
   display: flex;
   list-style: none;
+  padding-inline-start: 0px;
+  gap: 18px;
 }
 
-.links a {
+li a {
   text-decoration: none;
+  color: rgb(95, 95, 95);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -35,6 +47,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 6px 12px;
 }
 
 input {
@@ -43,4 +56,11 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 18px;
+  background-color: rgb(238, 238, 238);
 }
